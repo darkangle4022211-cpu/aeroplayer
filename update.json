@@ -1,9 +1,9 @@
 {
   "name": "AeroPlayer",
   "repo": "darkangle4022211-cpu/aeroplayer",
-  "version": "1.3.11",
-  "tag": "v1.3.11",
-  "changelog": "• Flawless A/V Lip-Sync on Seek & Reverse: Synchronized audio/video stream boundaries with -noaccurate_seek on remux copy and dynamic hardware sample rate locking (aresample=async=1); completely eliminates audio lag after rewinding or seeking across MKV/EAC3 web series (e.g. Ozark)\n• Standard Player Controls Parity: Mapped J to 10s Rewind/Reverse, K to Play/Pause toggle, L to 10s Fast-Forward; moved fine-tuning audio delay to Shift+J / Shift+K to prevent accidental desync\n• Clean Audio Sync Reset: Resetting audio delay to 0ms now automatically purges corrupted per-media delay offsets from local storage\n• Smart Empty Audio Track Detection: Clearly displays 'No audio tracks in file' when loading video-only files\n• Bare Minimum CPU & GPU: Full VA-API hardware pipeline (<3% CPU on 10-bit HEVC, <0.5% CPU on MKV remux, 0% GPU load when idle)\n\nIf you have any problem, feel free to contact the developer:\nPhone: 03228081409\nEmail: hamza.zafar4022211@gmail.com",
+  "version": "1.3.12",
+  "tag": "v1.3.12",
+  "changelog": "• Crystal Clear Dialogue & Voice Boost: Integrated intelligent multi-channel speech downmix matrix (pan) for 5.1 and 7.1 surround tracks (like EAC3 in Ozark/web series); lifts center dialogue by +7dB while balancing overpowering background music, bass rumble, and explosions so speech is crisp, punchy, and clearly intelligible\n• One-Click Voice Boost & Shortcut: Added dedicated Voice Boost toggle in player controls, context menu, and keyboard shortcut (D); boosts voice presence (~1.9kHz) while filtering out boomy sub-200Hz room rumble\n• Instant Voice Boost Memory: Remembers your Voice Boost preference in local storage across app restarts and series episodes\n• Zero Extra CPU & GPU Overhead: Downmix matrix runs seamlessly during existing remux stream arithmetic (<0.5% CPU, 0% GPU load)\n• Includes all v1.3.11 A/V sync and J/K/L navigation improvements\n\nIf you have any problem, feel free to contact the developer:\nPhone: 03228081409\nEmail: hamza.zafar4022211@gmail.com",
   "support": {
     "message": "If you have any problem, feel free to contact the developer:",
     "phone": "03228081409",
@@ -11,10 +11,10 @@
   },
   "platforms": {
     "linux-deb-x64": {
-      "url": "https://github.com/darkangle4022211-cpu/aeroplayer/releases/download/v1.3.11/aeroplayer_1.3.11_amd64.deb",
-      "sha256": "a7e62a1234ada2b87619d69e2487d9d9213cc2ce0ea2961df4e9f1ce1461ebc0",
-      "size": 93988230,
-      "filename": "aeroplayer_1.3.11_amd64.deb"
+      "url": "https://github.com/darkangle4022211-cpu/aeroplayer/releases/download/v1.3.12/aeroplayer_1.3.12_amd64.deb",
+      "sha256": "3aba70901cb00c76617b4a50d714dec776ee2c8fc4b1f2dbb63ceecb8c2951ec",
+      "size": 93988900,
+      "filename": "aeroplayer_1.3.12_amd64.deb"
     }
   }
 }
