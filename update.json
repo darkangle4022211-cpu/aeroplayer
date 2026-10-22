@@ -1,8 +1,8 @@
 {
   "name": "AeroPlayer",
   "repo": "darkangle4022211-cpu/aeroplayer",
-  "version": "1.3.12",
-  "tag": "v1.3.12",
+  "version": "1.3.13",
+  "tag": "v1.3.13",
   "changelog": "• Crystal Clear Dialogue & Voice Boost: Integrated intelligent multi-channel speech downmix matrix (pan) for 5.1 and 7.1 surround tracks (like EAC3 in Ozark/web series); lifts center dialogue by +7dB while balancing overpowering background music, bass rumble, and explosions so speech is crisp, punchy, and clearly intelligible\n• Comprehensive 720p MKV Playback Support: Fixes playback for 720p MKV files across 10-bit H.264 (Hi10P), cropped/odd resolutions, and AC3 audio codecs with intelligent hybrid GPU/CPU encoding and multi-tiered fallback\n• One-Click Voice Boost & Shortcut: Added dedicated Voice Boost toggle in player controls, context menu, and keyboard shortcut (D); boosts voice presence (~1.9kHz) while filtering out boomy sub-200Hz room rumble\n• Instant Voice Boost Memory: Remembers your Voice Boost preference in local storage across app restarts and series episodes\n• Zero Extra CPU & GPU Overhead: Downmix matrix runs seamlessly during existing remux stream arithmetic (<0.5% CPU, 0% GPU load)\n• Includes all v1.3.11 A/V sync and J/K/L navigation improvements\n\nIf you have any problem, feel free to contact the developer:\nPhone: 03228081409\nEmail: hamza.zafar4022211@gmail.com",
   "support": {
     "message": "If you have any problem, feel free to contact the developer:",
@@ -11,10 +11,10 @@
   },
   "platforms": {
     "linux-deb-x64": {
-      "url": "https://github.com/darkangle4022211-cpu/aeroplayer/releases/download/v1.3.12/aeroplayer_1.3.12_amd64.deb",
-      "sha256": "9391fff632bc9f87354fec0f7cbf8e9126cc4723c5f6218dd587a6dc23a27904",
-      "size": 93989134,
-      "filename": "aeroplayer_1.3.12_amd64.deb"
+      "url": "https://github.com/darkangle4022211-cpu/aeroplayer/releases/download/v1.3.13/aeroplayer_1.3.13_amd64.deb",
+      "sha256": "ff1430731948373328f105c3c3fd0ed97c1a2e8c269729a661e2e650dc4c4c34",
+      "size": 93989156,
+      "filename": "aeroplayer_1.3.13_amd64.deb"
     }
   }
 }
