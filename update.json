@@ -12,8 +12,8 @@
   "platforms": {
     "linux-deb-x64": {
       "url": "https://github.com/darkangle4022211-cpu/aeroplayer/releases/download/v1.3.13/aeroplayer_1.3.13_amd64.deb",
-      "sha256": "ff1430731948373328f105c3c3fd0ed97c1a2e8c269729a661e2e650dc4c4c34",
-      "size": 93989156,
+      "sha256": "09b87614badb282082e8a6060d7961ac8e98b4cff314093efacfbec556c0de16",
+      "size": 93989110,
       "filename": "aeroplayer_1.3.13_amd64.deb"
     }
   }
